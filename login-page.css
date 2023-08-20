@@ -1,0 +1,113 @@
+/*
+font-family: 'Roboto', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('login-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0 5rem;
+}
+header h1{
+    text-align: center;
+    font-size: 3rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    padding: 3rem 2rem;
+    min-width: 400px;
+    min-height: 450px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.8px );
+    -webkit-backdrop-filter: blur( 0.8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+form h2{
+    margin-bottom: 2rem;
+}
+.main-container{
+    display: flex;
+    width: 90%;
+    margin-bottom: 1.5rem;
+}
+.container{
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.3rem 0.2rem 0.7rem 0.2rem;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+.input-container{
+    display: flex;
+    justify-content: space-between;
+}
+.input-container input{
+    flex-basis: 85%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.05rem;
+}
+.input-container input:focus{
+    outline: none;
+}
+.input-container img{
+    width: 15px;
+    height: 15px;
+}
+.remember-and-forgot{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 1.5rem;
+}
+.remember-and-forgot a{
+    color: white;
+    text-decoration: none;
+}
+.login-button{
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+.register-button a{
+    color: white;
+    text-decoration: none;
+}

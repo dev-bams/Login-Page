@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="login-page.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="khaleed opeloyeru" />
+    <meta name="description" content="this is a login page" />
+    <meta
+      name="keywords"
+      content="login, login page, login form, login form page"
+    />
+    <title>Document</title>
+    <script src="login-page.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome To Tech Flckr</h1>
+    </header>
+    <main>
+      <form
+        name="login"
+        action="mailto:khaleedopeloyeru20@gmail.con"
+        method="post"
+      >
+        <h2>Login</h2>
+        <div class="main-container">
+          <label for="email" class="container">
+            Email<br />
+            <div class="input-container">
+              <input type="email" name="email" id="email" />
+              <img src="email.png" />
+            </div>
+          </label>
+        </div>
+
+        <div class="main-container">
+          <label for="password" class="container">
+            Password<br />
+            <div class="input-container">
+              <input type="password" name="password" id="password" />
+              <img src="password.png" />
+            </div>
+          </label>
+        </div>
+
+        <div class="remember-and-forgot">
+          <label for="remember-me">
+            <input
+              type="checkbox"
+              name="remember-me"
+              id="remember-me"
+              value="remember-me"
+            />
+            Remember Me
+          </label>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <input type="submit" value="Log in" class="login-button" />
+        <p class="register-button">
+          Don't have an account? <a href="#">Register</a>
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
